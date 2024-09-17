@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#yes{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(94, 255, 0);
+    border:none;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#no{
+    width: 80px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    cursor: pointer;
+    /* top: 150px;
+    left: 350px; */
+}
